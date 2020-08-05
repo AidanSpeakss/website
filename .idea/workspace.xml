@@ -22,8 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75d26b0f-2c7c-475b-9a41-e7fc43098ba8" name="Default Changelist" comment="">
+    <list default="true" id="75d26b0f-2c7c-475b-9a41-e7fc43098ba8" name="Default Changelist" comment="update to bio and slight visual improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
     </list>
@@ -34,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -72,7 +75,7 @@
       <updated>1596654006470</updated>
       <workItem from="1596654007583" duration="894000" />
       <workItem from="1596654953575" duration="84000" />
-      <workItem from="1596655063098" duration="1034000" />
+      <workItem from="1596655063098" duration="1372000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1596655676735</created>
@@ -81,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596655676735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update to bio and slight visual improvements">
+      <created>1596656143467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596656143467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="update to bio and slight visual improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to bio and slight visual improvements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1596655238888">
@@ -115,6 +126,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596655239578" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596656423413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596656423413" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596655504668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

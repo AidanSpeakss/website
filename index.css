@@ -34,7 +34,7 @@
 }
 .greeting .greeting-content .greeting-text .greeting-socials {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 2em;
 }
 .greeting .greeting-content .greeting-text .greeting-socials #fb {
@@ -156,6 +156,7 @@
   padding: 20px 10px;
 }
 .projects .projects-title {
+  text-decoration: unset;
   font-size: 40px;
 }
 .projects .projects-grid {
