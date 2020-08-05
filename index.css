@@ -34,6 +34,7 @@
 }
 .greeting .greeting-content .greeting-text .greeting-socials {
   width: 100%;
+  margin-top: 15px;
   font-size: 2em;
 }
 .greeting .greeting-content .greeting-text .greeting-socials #fb {
