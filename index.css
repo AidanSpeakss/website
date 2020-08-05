@@ -163,6 +163,9 @@
   grid-gap: 1rem 1rem;
   gap: 1rem 1rem;
 }
+.projects .projects-grid .point {
+  cursor: pointer;
+}
 .projects .projects-grid .repo:hover {
   box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
 }
@@ -171,7 +174,6 @@
   background-color: #fff;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
   padding: 2rem;
-  cursor: pointer;
 }
 .projects .projects-grid .repo .repo-stats {
   display: flex;
@@ -188,6 +190,7 @@
 }
 .projects .projects-grid .repo .repo-stats .repo-left-stats span {
   margin-right: 0.75rem;
+  display: flex;
   display: flex;
   align-items: center;
 }
@@ -219,6 +222,7 @@
   min-width: 16px;
 }
 .projects .projects-grid .repo .repo-name .repo-title {
+  text-decoration: unset;
   white-space: nowrap;
   text-overflow: ellipsis;
   color: #24292e;
