@@ -1,0 +1,243 @@
+.margins {
+  font: 20px/25px Montserrat, sans-serif;
+  margin: 10%;
+}
+
+.title {
+  font: 35px/40px Montserrat, sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+.title .name {
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #868e96;
+  font: 20px/25px Montserrat, sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.greeting .greeting-content {
+  display: grid;
+  grid-template-columns: 70% auto;
+  grid-gap: 1rem 1rem;
+  gap: 1rem 1rem;
+  align-items: center;
+}
+.greeting .greeting-content .greeting-text {
+  margin: 5%;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.greeting .greeting-content .greeting-text .greeting-socials {
+  width: 100%;
+  font-size: 2em;
+}
+.greeting .greeting-content .greeting-text .greeting-socials #fb {
+  color: white;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin: 0 5px 10px;
+  background-color: #3b5998;
+}
+.greeting .greeting-content .greeting-text .greeting-socials #li {
+  color: #fff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin: 0 5px 10px;
+  background-color: #0e76a8;
+}
+.greeting .greeting-content .greeting-text .greeting-socials #gm {
+  color: #fff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin: 0 5px 10px;
+  background-color: #ea4335;
+}
+.greeting .greeting-content .greeting-text .greeting-socials #gh {
+  color: #fff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin: 0 5px 10px;
+  background-color: #333;
+}
+.greeting .greeting-content .greeting-image {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.greeting .greeting-content .greeting-image #pfp {
+  display: flex;
+  width: 100%;
+  border-radius: 300px;
+  margin-bottom: 10px;
+}
+.greeting .greeting-second {
+  display: flex;
+  align-items: stretch;
+  justify-content: left;
+}
+.greeting .greeting-second .greeting-buttons {
+  margin: 5%;
+  display: flex;
+}
+.greeting .greeting-second .greeting-buttons .button-portfolio {
+  background-color: #55198b;
+  border: 1px solid #55198b;
+  color: #fff;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.projects {
+  margin: 5%;
+  width: 90%;
+  padding: 20px 10px;
+}
+.projects .projects-title {
+  font-size: 40px;
+}
+.projects .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem 1rem;
+  gap: 1rem 1rem;
+}
+.projects .projects-grid .repo:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.2);
+}
+.projects .projects-grid .repo {
+  color: #586069;
+  background-color: #fff;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  cursor: pointer;
+}
+.projects .projects-grid .repo .repo-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #6a737d;
+}
+.projects .projects-grid .repo .repo-stats .repo-left-stats {
+  flex-grow: 1;
+  display: flex;
+}
+.projects .projects-grid .repo .repo-stats .repo-left-stats .repo-star-svg {
+  margin-right: 0.3rem;
+}
+.projects .projects-grid .repo .repo-stats .repo-left-stats span {
+  margin-right: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.projects .projects-grid .repo .repo-stats .repo-left-stats span .language-color-js {
+  background-color: #f1e05a;
+  width: 10px;
+  height: 10px;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
+.projects .projects-grid .repo .repo-stats .repo-left-stats span .language-color-php {
+  background-color: #4F5D95;
+  width: 10px;
+  height: 10px;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
+.projects .projects-grid .repo .repo-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.projects .projects-grid .repo .repo-name {
+  display: flex;
+  align-items: center;
+}
+.projects .projects-grid .repo .repo-name .repo-svg {
+  margin-right: 0.5rem;
+  min-width: 16px;
+}
+.projects .projects-grid .repo .repo-name .repo-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #24292e;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.fab {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+/*# sourceMappingURL=indexsass.css.map */
+
+/*# sourceMappingURL=index.css.map */
