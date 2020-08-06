@@ -23,13 +23,30 @@
   .greeting-content {
     display: block;
   }
+  .greeting-image-mobile {
+    display: block;
+    text-align: center;
+    max-width: 100px;
+    #pfp {
+      width: 100%;
+      border-radius: 300px;
+      margin-bottom: 10px;
+    }
+  }
 }
 @media(min-width: 581px){
   .greeting-image {
-    display: flex;
+    display: block;
   }
   .greeting-content {
     display: grid;
+  }
+  .greeting-image-mobile {
+    display: none;
+    #pfp {
+    display: none;
+    }
+
   }
 }
 
@@ -136,9 +153,8 @@
 
   .greeting-image {
     max-width: 400px;
-    flex-direction: column;
     #pfp {
-      display: flex;
+      display: block;
       width: 100%;
       border-radius: 300px;
       margin-bottom: 10px;
