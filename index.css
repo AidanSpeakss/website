@@ -18,15 +18,24 @@
     font: 15px/20px Montserrat, sans-serif;
   }
 }
-.title {
-  font: 35px/40px Montserrat, sans-serif;
-  text-align: left;
-  font-weight: 600;
-}
-.title .name {
-  font-weight: 600;
-}
+@media (max-width: 580px) {
+  .greeting-image {
+    display: none;
+  }
 
+  .greeting-content {
+    display: block;
+  }
+}
+@media (min-width: 581px) {
+  .greeting-image {
+    display: flex;
+  }
+
+  .greeting-content {
+    display: grid;
+  }
+}
 .subtitle {
   color: #868e96;
   font-weight: 300;
@@ -34,13 +43,13 @@
 }
 
 .greeting .greeting-content {
-  display: grid;
   grid-template-columns: 70% auto;
   grid-gap: 1rem 1rem;
   gap: 1rem 1rem;
   align-items: center;
 }
 .greeting .greeting-content .greeting-text {
+  line-height: normal;
   margin: 5%;
   flex-grow: 2;
   display: flex;
@@ -125,7 +134,6 @@
 }
 .greeting .greeting-content .greeting-image {
   max-width: 400px;
-  display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
