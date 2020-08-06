@@ -1,8 +1,21 @@
-.margins {
-  font: 20px/25px Montserrat, sans-serif;
-  margin: 10%;
+@media(min-width: 801px) {
+  .margins {
+    font: 20px/25px Montserrat, sans-serif;
+    margin: 10%;
+  }
+  .subtitle {
+    font: 20px/25px Montserrat, sans-serif;
+  }
 }
-
+@media(max-width: 800px) {
+  .margins {
+  font: 15px/20px Montserrat, sans-serif;
+  margin: 10%;
+  }
+  .subtitle {
+    font: 15px/20px Montserrat, sans-serif;
+  }
+}
 .title {
   font: 35px/40px Montserrat, sans-serif;
   text-align: left;
@@ -15,7 +28,6 @@
 
 .subtitle {
   color: #868e96;
-  font: 20px/25px Montserrat, sans-serif;
   font-weight: 300;
   text-align: left;
 }
@@ -171,7 +183,7 @@
   }
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 1rem 1rem;
     gap: 1rem 1rem;
     .point {
