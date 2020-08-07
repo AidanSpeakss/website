@@ -24,10 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75d26b0f-2c7c-475b-9a41-e7fc43098ba8" name="Default Changelist" comment="update to bio and slight visual improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,8 @@
       <workItem from="1596654007583" duration="894000" />
       <workItem from="1596654953575" duration="84000" />
       <workItem from="1596655063098" duration="1372000" />
-      <workItem from="1596751744507" duration="2328000" />
+      <workItem from="1596751744507" duration="2791000" />
+      <workItem from="1596841186300" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1596655676735</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596752795590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added media queries for headshot, to improve visual look">
+      <created>1596754146320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596754146320</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +138,8 @@
     <MESSAGE value="update to bio and slight visual improvements" />
     <MESSAGE value="added media queries, need to test before futher changes" />
     <MESSAGE value="improved mobile responsiveness and added visual tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved mobile responsiveness and added visual tweaks" />
+    <MESSAGE value="added media queries for headshot, to improve visual look" />
+    <option name="LAST_COMMIT_MESSAGE" value="added media queries for headshot, to improve visual look" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1596655238888">
@@ -148,10 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596655239578" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596752804771">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596754148339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596752804771" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596754148339" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596753189319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
