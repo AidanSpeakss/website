@@ -6,6 +6,9 @@
   .subtitle {
     font: 20px/25px Montserrat, sans-serif;
   }
+  .subtitle2 {
+    font: 17px Montserrat, sans-serif;
+  }
 }
 @media(max-width: 800px) {
   .margins {
@@ -14,6 +17,9 @@
   }
   .subtitle {
     font: 15px/20px Montserrat, sans-serif;
+  }
+  .subtitle2 {
+    font: 13px Montserrat, sans-serif;
   }
 }
 @media(max-width: 580px){
@@ -53,6 +59,12 @@
 .subtitle {
   color: #868e96;
   font-weight: 300;
+  text-align: left;
+}
+.subtitle2 {
+  color: dimgray;
+  font-style: italic;
+  font-weight: 500;
   text-align: left;
 }
 .greeting {

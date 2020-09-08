@@ -24,12 +24,22 @@
   <component name="ChangeListManager">
     <list default="true" id="75d26b0f-2c7c-475b-9a41-e7fc43098ba8" name="Default Changelist" comment="update to bio and slight visual improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,12 +57,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Dev Things/SASS/dart-sass/sass.bat" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website7/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -61,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +90,7 @@
       <workItem from="1596655063098" duration="1372000" />
       <workItem from="1596751744507" duration="2791000" />
       <workItem from="1596841186300" duration="767000" />
+      <workItem from="1599570692567" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1596655676735</created>
@@ -142,6 +154,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added media queries for headshot, to improve visual look" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599570830639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599570830639" />
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1596655238888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -150,18 +166,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596655238139" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1596655239578">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1599571124518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596655239578" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599571124518" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596754148339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596754148339" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596753189319">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599571127426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596753189319" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599571127426" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599571101683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599571101683" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
