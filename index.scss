@@ -1,8 +1,22 @@
 .margins {
-  font: 20px/25px Montserrat, sans-serif;
   margin: 5%;
 }
-
+@media(max-width: 299px){
+  .margins {
+    display: none;
+  }
+  .warning {
+    display: block;
+  }
+}
+@media(min-width: 300px){
+  .warning {
+    display: none;
+  }
+}
+.warning {
+  font-family: Montserrat, sans-serif;
+}
 .title {
   font: 35px/40px Montserrat, sans-serif;
   text-align: left;
@@ -17,23 +31,45 @@
     display: flex;
   }
 }
+@media(min-width: 700px), (max-width: 1024px){
+  .greeting-image2 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    img {
+      height: 60%;
+      width: 60%;
+    }
+  }
+}
 @media(max-width: 1025px){
   .left {
     padding-bottom: 50px;
   }
+  .margins {
+    font: 15px/20px Montserrat, sans-serif;
+  }
+  .subtitle {
+    font: 15px/20px Montserrat, sans-serif;
+  }
+}
+@media(max-width: 699px){
+  .greeting-image2 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 
+    img {
+      height: 90%;
+      width: 90%;
+    }
+  }
 }
 @media(max-width: 1025px) {
   .greeting-image2 {
     flex-direction: column;
     align-items: center;
     display: flex;
-    padding-top: 50px;
-
-    img {
-      height: 50%;
-      width: 50%;
-    }
   }
   .greeting-content {
     display: block;
@@ -55,6 +91,12 @@
   }
   .greeting-image {
     display: flex;
+  }
+  .margins {
+    font: 20px/25px Montserrat, sans-serif;
+  }
+  .subtitle {
+      font: 20px/25px Montserrat, sans-serif;
   }
 }
 .skills {
@@ -123,7 +165,6 @@
 }
 .subtitle {
   color: #868e96;
-  font: 20px/25px Montserrat, sans-serif;
   font-weight: 300;
   text-align: left;
 }
@@ -135,7 +176,6 @@
     align-items: center;
 
     .greeting-text {
-      margin: 5%;
       flex-grow: 2;
       display: flex;
       flex-direction: column;
@@ -276,19 +316,19 @@
   }
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 1rem 1rem;
     gap: 1rem 1rem;
     .point {
       cursor: pointer;
     }
     .repo:hover {
-      box-shadow: 0 20px 30px -10px rgba(0,0,0,.2);
+      box-shadow: 0 20px 30px -10px rgba(0,0,0, 1);
     }
     .repo {
       color: #586069;
       background-color: #fff;
-      box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .2);
+      box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .5);
       padding: 2rem;
 
       .repo-stats {
