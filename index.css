@@ -392,6 +392,13 @@
   line-height: 12px;
 }
 
+footer {
+  text-align: center;
+  font-size: small;
+  font-weight: 200;
+  color: #24292e;
+}
+
 .fab {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
