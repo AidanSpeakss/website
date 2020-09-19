@@ -318,7 +318,7 @@
   cursor: pointer;
 }
 .projects .projects-grid .repo:hover {
-  box-shadow: 0 20px 30px -10px black;
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.5);
 }
 .projects .projects-grid .repo {
   color: #586069;
