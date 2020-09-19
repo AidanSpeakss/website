@@ -384,6 +384,14 @@
   margin: 0;
 }
 
+.dev-icons i {
+  margin-bottom: 5px;
+}
+.dev-icons p {
+  margin: 0;
+  line-height: 12px;
+}
+
 .fab {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
