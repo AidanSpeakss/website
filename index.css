@@ -9,17 +9,15 @@
 
   .warning {
     display: block;
+    font-family: Montserrat, sans-serif;
   }
 }
 @media (min-width: 300px) {
   .warning {
     display: none;
+    font-family: Montserrat, sans-serif;
   }
 }
-.warning {
-  font-family: Montserrat, sans-serif;
-}
-
 .title {
   font: 35px/40px Montserrat, sans-serif;
   text-align: left;
