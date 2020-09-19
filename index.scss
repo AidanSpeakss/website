@@ -29,15 +29,23 @@
   .skills {
     display: flex;
   }
+  .subtitle {
+    display: block;
+  }
 }
 @media(min-width: 700px), (max-width: 1024px){
   .greeting-image2 {
     flex-direction: column;
     align-items: center;
     display: flex;
-    img {
-      height: 60%;
+    svg {
       width: 60%;
+    }
+    .subtitleMobile {
+      display: none;
+    }
+    .subtitle {
+      display: block;
     }
   }
 }
@@ -51,6 +59,9 @@
   .subtitle {
     font: 15px/20px Montserrat, sans-serif;
   }
+  .subtitleMobile {
+    display: none;
+  }
 }
 @media(max-width: 699px){
   .greeting-image2 {
@@ -58,10 +69,19 @@
     align-items: center;
     display: flex;
 
-    img {
-      height: 90%;
-      width: 90%;
+    svg {
+      width: 55%;
     }
+  }
+  .subtitle {
+    display: none;
+  }
+  .subtitleMobile {
+    color: #868e96;
+    font-weight: 300;
+    text-align: left;
+    display: block;
+    font: 15px/20px Montserrat, sans-serif;
   }
 }
 @media(max-width: 1025px) {
@@ -95,7 +115,11 @@
     font: 20px/25px Montserrat, sans-serif;
   }
   .subtitle {
+      display: block;
       font: 20px/25px Montserrat, sans-serif;
+  }
+  .subtitleMobile {
+    display: none;
   }
 }
 .skills {
@@ -356,6 +380,13 @@
             }
             .language-color-php {
               background-color: #4F5D95;
+              width: 10px;
+              height: 10px;
+              margin-right: .25rem;
+              border-radius: 100%;
+            }
+            .language-color-c {
+              background-color: #555555;
               width: 10px;
               height: 10px;
               margin-right: .25rem;

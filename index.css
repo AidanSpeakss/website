@@ -31,6 +31,10 @@
   .skills {
     display: flex;
   }
+
+  .subtitle {
+    display: block;
+  }
 }
 @media (min-width: 700px), (max-width: 1024px) {
   .greeting-image2 {
@@ -38,9 +42,14 @@
     align-items: center;
     display: flex;
   }
-  .greeting-image2 img {
-    height: 60%;
+  .greeting-image2 svg {
     width: 60%;
+  }
+  .greeting-image2 .subtitleMobile {
+    display: none;
+  }
+  .greeting-image2 .subtitle {
+    display: block;
   }
 }
 @media (max-width: 1025px) {
@@ -55,6 +64,10 @@
   .subtitle {
     font: 15px/20px Montserrat, sans-serif;
   }
+
+  .subtitleMobile {
+    display: none;
+  }
 }
 @media (max-width: 699px) {
   .greeting-image2 {
@@ -62,9 +75,20 @@
     align-items: center;
     display: flex;
   }
-  .greeting-image2 img {
-    height: 90%;
-    width: 90%;
+  .greeting-image2 svg {
+    width: 55%;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .subtitleMobile {
+    color: #868e96;
+    font-weight: 300;
+    text-align: left;
+    display: block;
+    font: 15px/20px Montserrat, sans-serif;
   }
 }
 @media (max-width: 1025px) {
@@ -104,7 +128,12 @@
   }
 
   .subtitle {
+    display: block;
     font: 20px/25px Montserrat, sans-serif;
+  }
+
+  .subtitleMobile {
+    display: none;
   }
 }
 .skills {
@@ -354,6 +383,13 @@
 }
 .projects .projects-grid .repo .repo-stats .repo-left-stats span .language-color-php {
   background-color: #4F5D95;
+  width: 10px;
+  height: 10px;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
+.projects .projects-grid .repo .repo-stats .repo-left-stats span .language-color-c {
+  background-color: #555555;
   width: 10px;
   height: 10px;
   margin-right: 0.25rem;
