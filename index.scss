@@ -57,7 +57,7 @@
     font: 15px/20px Montserrat, sans-serif;
   }
   .subtitle {
-    font: 15px/20px Montserrat, sans-serif;
+    font: 15px/25px Montserrat, sans-serif;
   }
   .subtitleMobile {
     display: none;
@@ -81,7 +81,7 @@
     font-weight: 300;
     text-align: left;
     display: block;
-    font: 15px/20px Montserrat, sans-serif;
+    font: 15px/25px Montserrat, sans-serif;
   }
 }
 @media(max-width: 1025px) {
@@ -115,8 +115,8 @@
     font: 20px/25px Montserrat, sans-serif;
   }
   .subtitle {
-      display: block;
-      font: 20px/25px Montserrat, sans-serif;
+    display: block;
+    font: 20px/30px Montserrat, sans-serif;
   }
   .subtitleMobile {
     display: none;
@@ -225,6 +225,9 @@
           margin: 0 5px 10px;
           background-color: #3b5998;
         }
+        #fb:hover {
+          transform: scale(1.1);
+        }
         #li {
           color: #fff;
           border-radius: 2.6rem;
@@ -242,7 +245,9 @@
           width: 2.6rem;
           margin: 0 5px 10px;
           background-color: #0e76a8;
-
+        }
+        #li:hover {
+          transform: scale(1.1);
         }
         #gm {
           color: #fff;
@@ -262,7 +267,9 @@
           margin: 0 5px 10px;
           background-color: #ea4335;
         }
-
+        #gm:hover {
+          transform: scale(1.1);
+        }
         #gh {
           color: #fff;
           border-radius: 2.6rem;
@@ -280,6 +287,9 @@
           width: 2.6rem;
           margin: 0 5px 10px;
           background-color: #333;
+        }
+        #gh:hover {
+          transform: scale(1.1);
         }
       }
 
@@ -346,14 +356,14 @@
       cursor: pointer;
     }
     .repo:hover {
-      box-shadow: 0 20px 30px -10px rgba(0,0,0, .5);
+      transform: scale(1.03);
     }
     .repo {
+      font: 16px/26px Montserrat, sans-serif;
       color: #586069;
       background-color: #fff;
-      box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .5);
+      box-shadow: 5px 5px 10px rgba(40, 52, 58, 0.3);;
       padding: 2rem;
-
       .repo-stats {
         display: flex;
         justify-content: space-between;
@@ -404,6 +414,7 @@
         -webkit-box-orient: vertical;
       }
       .repo-name {
+        margin: 0 10px 0 10px;
         display: flex;
         align-items: center;
         .repo-svg {
