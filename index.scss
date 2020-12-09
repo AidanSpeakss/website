@@ -16,6 +16,7 @@
     font-family: Montserrat, sans-serif;
   }
 }
+
 .title {
   font: 35px/40px Montserrat, sans-serif;
   text-align: left;
@@ -25,6 +26,7 @@
     font-weight: 600;
   }
 }
+
 @media(min-width:1026px){
   .skills {
     display: flex;
@@ -47,6 +49,12 @@
     .subtitle {
       display: block;
     }
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
   }
 }
 @media(max-width: 1025px){
@@ -82,6 +90,12 @@
     text-align: left;
     display: block;
     font: 15px/25px Montserrat, sans-serif;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
   }
 }
 @media(max-width: 1025px) {
@@ -120,6 +134,12 @@
   }
   .subtitleMobile {
     display: none;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
   }
 }
 .skills {
@@ -348,10 +368,6 @@
     font-size: 40px;
   }
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-gap: 1rem 1rem;
-    gap: 1rem 1rem;
     .point {
       cursor: pointer;
     }
@@ -390,6 +406,13 @@
             }
             .language-color-php {
               background-color: #4F5D95;
+              width: 10px;
+              height: 10px;
+              margin-right: .25rem;
+              border-radius: 100%;
+            }
+            .language-color-html {
+              background-color: #e34c26;
               width: 10px;
               height: 10px;
               margin-right: .25rem;
