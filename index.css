@@ -409,6 +409,13 @@
   margin-right: 0.25rem;
   border-radius: 100%;
 }
+.projects .projects-grid .repo .repo-stats .repo-left-stats span .language-color-vb {
+  background-color: #945db7;
+  width: 10px;
+  height: 10px;
+  margin-right: 0.25rem;
+  border-radius: 100%;
+}
 .projects .projects-grid .repo .repo-stats .repo-left-stats span .language-color-php {
   background-color: #4F5D95;
   width: 10px;
