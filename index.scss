@@ -246,7 +246,6 @@
           background-color: #3b5998;
         }
         #fb:hover {
-          transition: 500ms linear;
           transform: scale(1.1);
         }
         #li {
@@ -268,7 +267,6 @@
           background-color: #0e76a8;
         }
         #li:hover {
-          transition: 500ms linear;
           transform: scale(1.1);
         }
         #gm {
@@ -290,7 +288,6 @@
           background-color: #ea4335;
         }
         #gm:hover {
-          transition: 500ms linear;
           transform: scale(1.1);
         }
         #gh {
@@ -312,7 +309,6 @@
           background-color: #333;
         }
         #gh:hover {
-          transition: 500ms linear;
           transform: scale(1.1);
         }
       }
@@ -376,10 +372,10 @@
       cursor: pointer;
     }
     .repo:hover {
-      transition: 500ms linear;
       transform: scale(1.03);
     }
     .repo {
+      transition: 500ms linear;
       font: 16px/26px Montserrat, sans-serif;
       color: #586069;
       background-color: #fff;
