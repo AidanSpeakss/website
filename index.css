@@ -11,7 +11,7 @@
     display: block;
     font-family: Montserrat, sans-serif;
   }
-}
+}transition: 500ms linear;
 @media (min-width: 300px) {
   .warning {
     display: none;
@@ -374,10 +374,10 @@
   cursor: pointer;
 }
 .projects .projects-grid .repo:hover {
-  transition: 500ms linear;
   transform: scale(1.03);
 }
 .projects .projects-grid .repo {
+  transition: 500ms linear;
   font: 16px/26px Montserrat, sans-serif;
   color: #586069;
   background-color: #fff;
