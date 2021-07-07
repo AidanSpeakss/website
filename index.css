@@ -374,6 +374,7 @@
   cursor: pointer;
 }
 .projects .projects-grid .repo:hover {
+  transition: 500ms linear;
   transform: scale(1.03);
 }
 .projects .projects-grid .repo {
