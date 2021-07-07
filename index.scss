@@ -228,6 +228,7 @@
         margin-top: 30px;
         font-size: 2em;
         #fb {
+          transition: 100ms linear;
           color: white;
           border-radius: 2.6rem;
           cursor: pointer;
@@ -249,6 +250,7 @@
           transform: scale(1.1);
         }
         #li {
+          transition: 100ms linear;
           color: #fff;
           border-radius: 2.6rem;
           cursor: pointer;
@@ -270,6 +272,7 @@
           transform: scale(1.1);
         }
         #gm {
+          transition: 100ms linear;
           color: #fff;
           border-radius: 2.6rem;
           cursor: pointer;
@@ -291,6 +294,7 @@
           transform: scale(1.1);
         }
         #gh {
+          transition: 100ms linear;
           color: #fff;
           border-radius: 2.6rem;
           cursor: pointer;
@@ -375,7 +379,7 @@
       transform: scale(1.03);
     }
     .repo {
-      transition: 500ms linear;
+      transition: 100ms linear;
       font: 16px/26px Montserrat, sans-serif;
       color: #586069;
       background-color: #fff;
