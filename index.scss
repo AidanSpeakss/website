@@ -1,21 +1,21 @@
 .margins {
   margin: 5%;
 }
+
+.warning {
+    display: none;
+    font-family: Montserrat, sans-serif;
+}
+
 @media(max-width: 299px){
   .margins {
     display: none;
   }
   .warning {
     display: block;
-    font-family: Montserrat, sans-serif;
   }
 }
-@media(min-width: 300px){
-  .warning {
-    display: none;
-    font-family: Montserrat, sans-serif;
-  }
-}
+
 
 .title {
   font: 35px/40px Montserrat, sans-serif;
