@@ -1,6 +1,10 @@
 .margins {
   margin: 5%;
 }
+  .warning {
+    display: none;
+    font-family: Montserrat, sans-serif;
+  }
 
 @media (max-width: 299px) {
   .margins {
