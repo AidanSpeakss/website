@@ -387,6 +387,7 @@
   background-color: #fff;
   box-shadow: 5px 5px 10px rgba(40, 52, 58, 0.3);
   padding: 2rem;
+  border-radius: 5px;
 }
 .projects .projects-grid .repo .repo-stats {
   display: flex;
