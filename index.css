@@ -389,6 +389,12 @@
   padding: 2rem;
   border-radius: 5px;
 }
+.projects .projects-grid .repoWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 .projects .projects-grid .repo .repo-stats {
   display: flex;
   justify-content: space-between;
