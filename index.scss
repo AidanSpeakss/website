@@ -378,6 +378,12 @@
     .repo:hover {
       transform: scale(1.03);
     }
+    .repoWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
     .repo {
       transition: 300ms ease;
       font: 16px/26px Montserrat, sans-serif;
