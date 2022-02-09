@@ -459,7 +459,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-.projects .projects-grid .repo .repoWork .repo-description {
+.projects .projects-grid .repoWork .repo-description {
   display: flex;
   flex-direction: column;
   align-items: center;
