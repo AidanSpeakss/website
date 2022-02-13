@@ -162,8 +162,7 @@
 
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
-    grid-gap: 1rem 1rem;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));    grid-gap: 1rem 1rem;
     gap: 1rem 1rem;
   }
 }
@@ -530,7 +529,3 @@ footer {
   text-rendering: auto;
   line-height: 1;
 }
-
-/*# sourceMappingURL=indexsass.css.map */
-
-/*# sourceMappingURL=index.css.map */
