@@ -1,3 +1,9 @@
+.article-preview {
+    max-width: 100%;
+    max-height: 100%;
+    clip-path: inset(0% 0% 2% 0%);
+    cursor: pointer;
+}
 .margins {
   margin: 5%;
 }
@@ -15,7 +21,7 @@
     display: block;
     font-family: Montserrat, sans-serif;
   }
-}transition: 300ms ease;
+}
 @media (min-width: 300px) {
   .warning {
     display: none;
@@ -28,7 +34,7 @@
   font-weight: 600;
 }
 .title .name {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 @media (min-width: 1026px) {
@@ -163,6 +169,12 @@
 }
 .skills {
   padding-bottom: 50px;
+}
+.skills-text img{
+    height: 1em; 
+    width: 1em; 
+    margin: 0px 0.05em 0px 0.1em; 
+    vertical-align: -0.1em;
 }
 .skills .subtitle {
   color: #868e96;
@@ -370,13 +382,20 @@
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-
+.workDetails {
+    display: flex;
+    flex-direction: row;
+}
+.workDetails p {
+    padding: 4px;
+}
 .projects {
-  padding: 20px 10px;
+    padding: 20px 10px;
 }
 .projects .projects-title {
-  text-decoration: unset;
-  font-size: 40px;
+    margin-top: 5%;
+    text-decoration: unset;
+    font-size: 40px;
 }
 .projects .projects-grid .point {
   cursor: pointer;
