@@ -40,7 +40,7 @@
     font-weight: 700;
 }
 
-@media (min-width: 1026px) {
+@media (min-width: 901px) {
   .skills {
     display: flex;
   }
@@ -75,7 +75,7 @@
     margin-top: 5%;
   }
 }
-@media (max-width: 1025px) {
+@media (max-width: 900px) {
   .left {
     padding-bottom: 50px;
   }
