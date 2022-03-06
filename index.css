@@ -105,6 +105,9 @@
   .subtitle {
     display: none;
   }
+    .greeting-content{
+display: none;    
+}
 
     .subtitleMobile {
         color: #868e96;
@@ -123,13 +126,13 @@
 
 }
 @media (max-width: 1025px) {
-  .greeting-image2 {
+/*   .greeting-image2 {
     flex-direction: column;
     align-items: center;
     display: flex;
-  }
+  } */
 
-  .greeting-content {
+/*   .greeting-content {
     display: block;
   }
 
@@ -139,7 +142,7 @@
 
   .left {
     display: none;
-  }
+  } */
 }
 @media (min-width: 1026px) {
   .greeting-image2 {
