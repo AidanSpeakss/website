@@ -9,14 +9,14 @@
     width: 50px;
     height: 50px;
     bottom: 10px;
-    right: 10px;
+    right: 20px;
     font-size: 35px;
     background: rgba(255,255,255,0.3);
     color: darkgray;
 }
 .goToTop i:before {
     background: rgba(0, 0, 0, 0.15);
-    padding: 10px;
+    padding: 10px 15px;
 }
 .margins {
   margin: 5%;
