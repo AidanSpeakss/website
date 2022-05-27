@@ -4,6 +4,11 @@
     clip-path: inset(0% 0% 2% 0%);
     cursor: pointer;
 }
+#top {
+    display: none;
+    position: absolute;
+    top: 0;
+}
 .goToTop {
     position: fixed;
     width: 50px;
