@@ -14,7 +14,7 @@
     background: rgba(255,255,255,0.3);
     color: darkgray;
 }
-.goToTop i {
+.goToTop i:before {
     background: rgba(0, 0, 0, 0.15);
     padding: 10px;
 }
