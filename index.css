@@ -10,11 +10,13 @@
     height: 50px;
     bottom: 10px;
     right: 20px;
+    opacity: 0.8;
     font-size: 35px;
     background: rgba(255,255,255,0.3);
     color: darkgray;
 }
 .goToTop i:before {
+    border-radius: 10px;
     background: rgba(0, 0, 0, 0.15);
     padding: 10px 15px;
 }
