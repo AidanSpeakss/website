@@ -54,10 +54,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
 </head>
-<body>
+<body id="top">
     <!--To-do: Add header with in-page links to each section-->
     <!--To-do: Implement dark mode feature-->
-    <div id="top" class="margins">
+    <div class="margins">
         <a href="#top" id="goToTop" class="goToTop"><i class="fa-solid fa-arrow-up"></i></a>
         <!--Intro bio, animated graphic and social links-->
         <div class="greeting">
@@ -766,11 +766,11 @@
         //Get the button:
         mybutton = document.getElementById("goToTop");
 
-        // When the user scrolls down 20px from the top of the document, show the button
+        // When the user scrolls down 50px from the top of the document, show the button
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             mybutton.style.display = "block";
           } else {
             mybutton.style.display = "none";
