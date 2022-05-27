@@ -510,7 +510,6 @@
 }
 .projects .projects-grid .repo .repo-name .repo-title {
   text-decoration: unset;
-  white-space: nowrap;
   text-overflow: ellipsis;
   color: #24292e;
   font-size: 25px;
