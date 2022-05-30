@@ -10,8 +10,8 @@
     position: absolute;
     top: 0;
 }
-.softSkills:nth-of-type(1n){
-    margin-top:10px;
+.softSkills:first-of-type{
+    margin-top: 20px;
 }
 .goToTop {
     z-index: 999999;
