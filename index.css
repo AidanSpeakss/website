@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
 }
-.softSkills:nth-of-type(1){
+.softSkills:nth-of-type(1n){
     margin-top:10px;
 }
 .goToTop {
