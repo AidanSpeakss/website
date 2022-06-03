@@ -69,7 +69,6 @@
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 80px rgba(0, 0, 0, 0.11), 0 0 32px rgba(0, 0, 0, 0.35);
 }
 
 @media (min-width: 1026px) {
