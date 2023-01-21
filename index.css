@@ -387,6 +387,50 @@
 .greeting .greeting-content .greeting-text .greeting-socials #gh:hover {
   transform: scale(1.1);
 }
+.greeting .greeting-content .greeting-text .greeting-socials #tw {
+  color: #fff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin: 0 5px 10px;
+  background-color: #1DA1F2;
+  transition: 200ms ease;  
+}
+.greeting .greeting-content .greeting-text .greeting-socials #tw:hover {
+  transform: scale(1.1);
+}
+.greeting .greeting-content .greeting-text .greeting-socials #ma {
+  color: #fff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin: 0 5px 10px;
+  background-color: #6364ff;
+  transition: 200ms ease;  
+}
+.greeting .greeting-content .greeting-text .greeting-socials #ma:hover {
+  transform: scale(1.1);
+}
 .greeting .greeting-content .greeting-image {
   flex-grow: 1;
 }
